@@ -1,0 +1,137 @@
+:root {
+    --cinza: #E5ECF4;
+    --azul: #05071E;
+    --azulclaro: #336699;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos Base*/
+
+body {
+    background: var(--azul);
+    font-family: 'Arial', Times, serif;
+    color: var(--cinza);
+}
+
+a {
+    text-decoration: none;    
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--azulclaro);
+    font-family: 'Arial black', Times, serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 1px #E5ECF4;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--azulclaro);
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: var(--cinza);
+}
+
+
+/*Filme principal*/
+
+.conteudo-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(255, 255, 255, 0.507), rgba(0,0,0,.50) 100%), url('../img/capa.jpg');
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;        
+}
+
+.conteudo-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.titulo {
+    margin-top: 25%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    text-shadow: 2px 2px 2px #336699;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: 1px 1px 1px #E5ECF4;    
+    padding: 15px 30px;
+    margin-right: 25px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5%;
+    color: var(--cinza); 
+}
+
+.botao:hover {
+    background-color: var(--cinza);
+    color: var(--azul);
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;    
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.conteudo-principal .container {
+    width: 100%;
+}
+
+.box-ling {
+    height: 100px;
+    width: 50px;
+    display: block;
+}
+
+main {
+    padding-bottom: 10px;
+}
+
+.subtitulo {    
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.subtitulo a {
+    color: var(--cinza);
+}
+
+.subtitulo a:hover {
+    color: var(--azulclaro);
+}
+
+h4 {
+    color: var(--cinza);    
+}
+

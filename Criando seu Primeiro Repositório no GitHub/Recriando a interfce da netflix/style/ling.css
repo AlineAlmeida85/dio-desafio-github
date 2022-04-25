@@ -1,0 +1,39 @@
+:root {
+    --cinza: #E5ECF4;
+    --azul: #05071E;
+    --azulclaro: #336699;
+}
+
+.linguagens, .frameworks, .bancoDeDados {
+    background-color: var(--cinza);
+}
+
+p {
+    color: var(--azul);
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+span {
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 24px;
+    color: var(--azul);
+    text-shadow: 3px 3px 3px #33669993;
+    text-decoration: underline;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container-linguagens, .container-frameworks, .container-dados {
+    margin: 75px;
+}
+
+h6 {
+    font-size: 18px;
+    color: var(--azul);
+    text-decoration: underline;
+}
+
